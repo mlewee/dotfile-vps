@@ -1,0 +1,22 @@
+alias d="docker"
+alias dc="docker compose"
+alias dcp="docker compose -f docker-compose.prod.yml"
+alias dcpr="docker compose -f docker-compose.prod.yml restart"
+alias dcb="docker compose -f docker-compose.prod.yml up -d --force-recreate --build"
+alias py="python"
+alias dps="docker ps -a"
+alias res="source ~/.bashrc"
+
+alias prb="cd ~/Code/trading-hub"
+alias prf="cd ~/Code/tcg-viewer"
+alias prs="cd ~/Code/simon-look"
+alias prp="cd ~/Code/portfolio"
+alias al="nano ~/.bash_aliases"
+alias bp="nano ~/.bash_profile"
+
+alias g="git"
+alias ga="git add ."
+alias gcmsg="git commit -m "
+alias gp="git push"
+
+alias cls="clear"
