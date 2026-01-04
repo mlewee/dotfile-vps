@@ -19,10 +19,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
-### Stow & Git
+### Stow & Git & Unzip
 
 ```sh
-sudo apt install git stow -y
+sudo apt install git stow unzip -y
 ```
 
 
