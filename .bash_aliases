@@ -14,6 +14,8 @@ alias dl="docker logs -f"
 alias de="docker exec -it"
 alias rcon="docker exec -it mc rcon-cli"
 
+alias lzd="lazydocker"
+
 alias g="git"
 alias ga="git add ."
 alias gcmsg="git commit -m"

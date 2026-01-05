@@ -25,6 +25,16 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 sudo apt install git stow unzip -y
 ```
 
+### Lazydocker
+```sh
+# first install homebrew
+# https://brew.sh/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# https://github.com/jesseduffield/lazydocker#usage
+brew install jesseduffield/lazydocker/lazydocker
+```
+
 
 ## Installation
 
