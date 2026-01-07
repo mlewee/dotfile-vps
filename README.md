@@ -7,31 +7,33 @@ This repository contains the dotfiles for my system
 
 Ensure you have the following installed on your system
 
-### Node Version Manager
-```sh
-# https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating check for updates
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-```
-
-### Oh My Posh
-```sh
-# https://ohmyposh.dev/docs/installation/linux
-curl -s https://ohmyposh.dev/install.sh | bash -s
-```
-
-### Stow & Git & Unzip
+### Stow, Git & Unzip
 
 ```sh
 sudo apt install git stow unzip -y
 ```
 
-### Lazydocker
+### Node Version Manager
+
+[NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 ```sh
-# first install homebrew
-# https://brew.sh/
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+```
+
+### Oh My Posh
+
+[Oh My Posh](https://ohmyposh.dev/docs/installation/linux)
+```sh
+curl -s https://ohmyposh.dev/install.sh | bash -s
+```
+
+### Lazydocker
+
+[Brew](https://brew.sh/)
+[LazyDocker](https://github.com/jesseduffield/lazydocker#usage)
+```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# https://github.com/jesseduffield/lazydocker#usage
 brew install jesseduffield/lazydocker/lazydocker
 ```
 
