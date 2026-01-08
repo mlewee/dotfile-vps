@@ -26,3 +26,7 @@ alias gl="git log --oneline --all --graph --decorate"
 alias res="source ~/.bashrc"
 alias cls="clear"
 alias al="nano ~/.bash_aliases"
+
+alias tn="tmux new-session -s"
+alias tl="tmux list-sessions"
+alias ta="tmux attach-session"
